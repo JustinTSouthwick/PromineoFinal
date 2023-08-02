@@ -1,38 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.carousel img {
+    object-fit: cover;
+    object-position: center;
+    height: 55vh;
+    overflow: hidden;
+}
+
 .App {
-  text-align: center;
+    background: url('./assets/bgguitar.jpg') no-repeat center center/cover;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footer {
+    margin-top: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.carousel {
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+table {
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px black;
+    background-color: rgba(0, 0, 0, .5);
 }
